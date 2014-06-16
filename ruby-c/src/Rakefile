@@ -1,0 +1,4 @@
+require 'rake/extensiontask'
+
+spec = Gem::Specification.load('phidget.gemspec')
+Rake::ExtensionTask.new('phidget', spec)

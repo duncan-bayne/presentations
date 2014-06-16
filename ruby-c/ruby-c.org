@@ -1,0 +1,91 @@
+* C extensions for Ruby
+
+[[./Ken_n_dennis.jpg]]
+
+... meets ...
+
+[[./hipsters.jpg]]
+
+* why?
+
+ * performance
+
+ * use native libraries
+
+ * build powerful abstractions in Ruby around low-level libraries
+
+* why not?
+
+ * what you want might already exist (don't reinvent the wheel)
+
+ * FFI will suffice for many cases, and supports non-MRI Ruby
+
+* what is C?
+
+ "C offers all the speed of assembler with all the portability of ... assembler"
+   - unknown
+
+ * invented in 1972 by Thompson and Ritchie
+
+ * used to develop UNIX
+
+ * portable if written properly
+
+ * strongly typed, but with ... workarounds
+
+ * no garbage collection
+
+ * good static analysis tools (esp. valgrind)
+
+* C, illustrated
+
+ #include <stdio.h>
+ #include <stdlib.h>
+
+ void add(int addend, int *addend_ptr)
+ {
+   *addend_ptr += addend;
+ }
+
+ int main(void)
+ {
+   int *n_ptr;
+
+   n_ptr = malloc(sizeof(int));
+
+   *n_ptr = 15;
+   add(3, n_ptr);
+   printf("%d\n", *n_ptr);
+   free(n_ptr);
+
+   return 0;
+ }
+
+* practical example
+
+** here's one I prepared earlier ...
+
+[[./preparation.jpg]]
+
+ * there are already Phidget gems that use FFI (see 'reinventing the wheel' above)
+ * I set up udev rules to allow access to Phidget device without root / sudo
+ * the Phidget drivers are downloaded and compiled
+ * I've installed all the relevant gems
+ * coffee is good (thanks Daniel & Rhiana)
+
+* credits / links
+
+ * http://www.phidgets.com/
+   the I/O board and CC-licensed demo code
+
+ * http://pigroll.com/
+   the hipster pic
+
+ * http://wikipedia.org/
+   the photo of Thompson and Ritchie
+
+ * https://blog.jcoglan.com/2012/07/29/your-first-ruby-native-extension-c/
+   where I learned about all this stuff in the first place
+
+ * https://github.com/rlister/org-present
+   use Emacs for presentations!

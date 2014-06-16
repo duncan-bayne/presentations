@@ -1,4 +1,4 @@
 presentations
 =============
 
-A collection of presentations I've given at various fora.
+Please see the [presentations wiki](https://github.com/duncan-bayne/presentations/wiki) for all documentation.

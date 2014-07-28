@@ -1,0 +1,133 @@
+ * there's no such thing as magic
+
+[[./dawkins.jpg]]
+
+ * tools and techniques for Ruby programmers
+
+[[./book.jpg]]   [[./problem.jpg]]
+
+ * segue time
+
+[[./segway.jpg]]
+
+ * there is such a thing as magic
+
+[[./turtles.jpg]]
+
+ - no one person can learn everything about a modern computer
+
+ - the further down the stack you go, the vaguer the turtles become
+
+ - everyone has a magic level
+
+      "the music is ... inside the phone"
+      "the chip ... switches the electricity"
+      "the electricity ... comes from the power company"
+
+ * no, really, there is
+
+[[./magnets.jpg]]* there's no such thing as magic
+
+[[./dawkins.jpg]]
+
+ * tools and techniques for Ruby programmers
+
+[[./book.jpg]]   [[./problem.jpg]]
+
+ * segue time
+
+[[./segway.jpg]]
+
+ * there is such a thing as magic
+
+[[./turtles.jpg]]
+
+ - no one person can learn everything about a modern computer
+
+ - the further down the stack you go, the vaguer the turtles become
+
+ - everyone has a magic level
+
+      "the music is ... inside the phone"
+      "the chip ... switches the electricity"
+      "the electricity ... comes from the power company"
+
+ * no, really, there is
+
+[[./magnets.jpg]]
+
+people are always pushing the limits of magic
+
+ - we only recently discovered how lithium ion batteries degrade
+
+ - we don't know how efficiently matrix multiplication might be done
+
+ - we don't know why our brains are conscious!
+
+ * wizards
+
+a wizard is just a person whose magic floor, in a particular context, you know
+to be more than zero turtles deeper than yours
+
+[[./stallman.jpeg]] [[./wozniak.jpg]] [[./davis.jpg]] [[./torvalds.jpg]]
+
+ * ... wait, where are the women wizards?
+
+[[./female_hackers.png]]       [[./planet.png]]
+
+ * being a wizard is both hard and easy
+
+it requires that:
+
+ - you enjoy learning how things work beyond the immediate need
+
+ - the tools you use are amenable to hacking
+
+ - your employer is okay with wizardliness
+
+(relatedly, all the rules for chess fit on a few double-sided A4 sheets)
+
+ * tools and techniques for Ruby programmers
+
+right, back to some concrete stuff here
+
+ - *gem open* gets you the sauce
+
+ - *pry* and friends
+
+ - *lsof* ... is pretty much a magic wand
+
+ - profile, profile, profile ... see *stackprof* for Ruby 2.1
+
+ - *Ruby Under a Microscope* by Pat Shaughnessy
+
+ * credits / links
+
+ - ExtremeTech for the lithium ion battery details
+   http://goo.gl/YTxk4b
+
+ - StackExchange for the matrix multiplication problem
+   http://goo.gl/stcyC
+
+ - Pelf Nyok for the turtle stack
+   https://www.flickr.com/photos/pelf81/324890844/
+
+ - Wikimedia Commons for the mugshots
+   http://commons.wikimedia.org/wiki/File:Jerry_Sussman.jpg
+   http://en.wikipedia.org/wiki/File:Richard_Matthew_Stallman.jpeg
+   http://en.wikipedia.org/wiki/File:Steve_Wozniak.jpg
+
+ - QuickMeme for the silly Dawkins meme photo
+   http://www.quickmeme.com/meme/3qnbtx
+
+ - Pry
+   https://github.com/pry/pry
+
+ - lsof
+   http://danielmiessler.com/study/lsof/
+
+ - StackProf
+   https://github.com/tmm1/stackprof
+
+ - Ruby Under a Microscope
+   http://patshaughnessy.net/ruby-under-a-microscope

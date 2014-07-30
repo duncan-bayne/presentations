@@ -28,7 +28,7 @@
 
 [[./magnets.jpg]]
 
-people are always pushing the limits of magic
+science is always pushing the limits of magic
 
  - we only recently discovered how lithium ion batteries degrade
 
@@ -38,59 +38,59 @@ people are always pushing the limits of magic
 
 * wizards
 
-a wizard is just a person whose magic floor, in a particular context, you know
+ - a wizard is just a person whose magic floor, in a particular context, you know
 to be more than zero turtles deeper than yours
 
-[[./stallman.jpeg]] [[./wozniak.jpg]] [[./davis.jpg]] [[./torvalds.jpg]]
+ - wizards are often generalised specialists
 
-* ... wait, where are the women wizards?
+ - some have floors so low they're famous
+
+[[./stallman.jpeg]] [[./hopper.jpg]]  [[./wozniak.jpg]] [[./davis.jpg]] [[./torvalds.jpg]]
+
+* only one woman wizard???
 
 [[./female_hackers.png]]       [[./planet.png]]
 
-* being a wizard is both hard and easy
+* becoming a wizard is easy
 
 it requires that:
 
- - you enjoy learning how things work beyond the immediate need
+ - you habitually look 'one turtle down' when investigating problems
 
- - the tools you use are amenable to hacking
+ - the tools you're using are amenable to that (i.e., hacker-friendly)
+
+ - you learn the culture
 
  - if at work: your employer is okay with the time and effort spent
 
-(relatedly, all the rules for chess fit on a few double-sided A4 sheets)
+* employee relations
+
+[[./xray.jpg]]
+
+ - wizards need time to lower their turtle floor
+
+ - ... while realising that their function is to convert money into features
 
 * tools and techniques for Ruby programmers
 
-right, back to some concrete stuff here
+of secondary importance, but helpful places to start
 
  - *gem open* gets you the sauce
 
  - *pry* and friends
 
- - *lsof* ... is pretty much a magic wand
-
  - profile, profile, profile ... see *stackprof* for Ruby 2.1
+
+ - *The Art of Unix Programming* by Eric S. Raymond
+
+ - *lsof* ... is pretty much a magic wand
 
  - *Ruby Under a Microscope* by Pat Shaughnessy
 
-* credits / links
+* credits & links
 
- - ExtremeTech for the lithium ion battery details
-   http://goo.gl/YTxk4b
-
- - StackExchange for the matrix multiplication problem
-   http://goo.gl/stcyC
-
- - Pelf Nyok for the turtle stack
-   https://www.flickr.com/photos/pelf81/324890844/
-
- - Wikimedia Commons for the mugshots
-   http://commons.wikimedia.org/wiki/File:Jerry_Sussman.jpg
-   http://en.wikipedia.org/wiki/File:Richard_Matthew_Stallman.jpeg
-   http://en.wikipedia.org/wiki/File:Steve_Wozniak.jpg
-
- - QuickMeme for the silly Dawkins meme photo
-   http://www.quickmeme.com/meme/3qnbtx
+ - This presentation
+   https://github.com/duncan-bayne/presentations/wiki
 
  - Pry
    https://github.com/pry/pry
@@ -103,3 +103,25 @@ right, back to some concrete stuff here
 
  - Ruby Under a Microscope
    http://patshaughnessy.net/ruby-under-a-microscope
+
+ - The Art of Unix Programming
+   http://www.catb.org/esr/writings/taoup/
+
+ - ExtremeTech for the lithium ion battery details
+   http://goo.gl/YTxk4b
+
+ - StackExchange for the matrix multiplication problem
+   http://goo.gl/stcyC
+
+ - Pelf Nyok for the turtle stack
+   https://www.flickr.com/photos/pelf81/324890844/
+
+ - Wikimedia Commons for mugshots and x-ray pic
+   http://commons.wikimedia.org/wiki/File:Jerry_Sussman.jpg
+   http://en.wikipedia.org/wiki/File:Richard_Matthew_Stallman.jpeg
+   http://en.wikipedia.org/wiki/File:Steve_Wozniak.jpg
+   http://commons.wikimedia.org/wiki/File:Grace_Hopper.jpg
+   http://commons.wikimedia.org/wiki/File:Crookes_tube_xray_experiment.jpg
+
+ - QuickMeme for the silly Dawkins meme photo
+   http://www.quickmeme.com/meme/3qnbtx

@@ -1,0 +1,48 @@
+* object-oriented programming anti-patterns in Ruby
+
+"Object-oriented programming is an exceptionally bad idea which could only have originated in California."
+  - Edsger Dijkstra
+
+"Object-oriented design is the roman numerals of computing."
+  - Rob Pike
+
+[[./colouring.jpg]]
+
+* why OO?
+
+ + originally intended to make programming accessible to the non-technical
+   (including and especially children)
+
+ + took over a decade to go mainstream with C++
+   (not suitable for children)
+
+ + makes certain good practices easy
+
+* OO principles
+
+ + abstraction
+
+ + encapsulation
+
+ + inheritance
+
+ + polymorphism
+
+* abstraction
+
+* encapsulation
+
+* inheritance
+
+* polymorphism
+
+* credits
+
+ + http://harmful.cat-v.org/software/OO_programming/
+   OO quotes
+
+ + https://www.flickr.com/photos/spikeyhelen/2468971942/
+   'Andrew Colouring B&W' (Helen Cassidy)
+
+ + http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html
+   history of Smalltalk

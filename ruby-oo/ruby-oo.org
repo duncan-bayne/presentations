@@ -28,13 +28,15 @@
 
  + polymorphism
 
-* abstraction
+* everything is a string
 
-* encapsulation
+* polymorphism by case statement
 
-* inheritance
+* classes as bags o' code
 
-* polymorphism
+* constructors that aren't
+
+* pointless OO
 
 * credits
 

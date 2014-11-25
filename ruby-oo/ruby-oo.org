@@ -28,15 +28,83 @@
 
  + polymorphism
 
-* everything is a string
+* "everything is a string"
 
-* polymorphism by case statement
+url = 'http://example.com/resource'
+=> "http://example.com/resource"
 
-* classes as bags o' code
+url = 'this is not a url'
+=> "this is not a url"
 
-* constructors that aren't
+* use the type system
 
-* pointless OO
+url = URI.parse('http://example.com/resource')
+=> #<URI::HTTP:0x00000804f7ff10 URL:http://example.com/resource>
+
+url = URI.parse('this is not a url')
+URI::InvalidURIError: bad URI(is not URI?): this is not a url
+
+* "polymorphism by if statement"
+
+def speak(animal)
+  if animal.class == Cat
+    'meow'
+  elsif animal.class == Dog
+    'woof'
+  end
+end
+
+class Cat; end
+
+class Dog; end
+
+speak(Dog.new)
+=> 'woof'
+
+speak(Cat.new)
+=> 'meow'
+
+* wait for it ... use the type system
+
+class Cat
+  def speak
+    'meow'
+  end
+end
+
+class Dog
+  def speak
+    'woof'
+  end
+end
+
+Dog.new.speak
+=> 'woof'
+
+Cat.new.speak
+=> 'meow'
+
+* "constructors with side-effects"
+
+class Car
+  attr_accessor :engine
+  def initialize
+    self.engine = Engine.new
+  end
+end
+
+... better hope that the Engine constructor doesn't have side effects too.
+
+* constructor injection
+
+class Car
+  attr_accessor :engine
+  def initialize(engine: nil)
+    self.engine = engine
+  end
+end
+
+* "needless OO"
 
 * credits
 

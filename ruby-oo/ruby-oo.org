@@ -16,7 +16,9 @@
 
  + makes certain good practices easy
 
-* OO principles
+ + particularly well suited to modelling certain real-world domains
+
+ * OO principles
 
  + abstraction
 
@@ -26,6 +28,17 @@
 
  + polymorphism
 
+* classes should be SOLID
+
+ + Single responsibility
+
+ + Open (for extension) / Closed (for modificiation)
+     ... good luck with that last one in Ruby
+
+ + LIskov substitution (really? this is why we have a reputation as poor communicators)
+
+ + Dependency inverstion
+
 * "everything is a string"
 
 url = 'http://example.com/resource'
@@ -34,7 +47,11 @@ url = 'http://example.com/resource'
 url = 'this is not a url'
 => "this is not a url"
 
-* use the type system
+-----
+
+ + types are there to help you, not the computer
+
+* use appropriate types
 
 url = URI.parse('http://example.com/resource')
 => #<URI::HTTP:0x00000804f7ff10 URL:http://example.com/resource>
@@ -62,7 +79,7 @@ speak(Dog.new)
 speak(Cat.new)
 => 'meow'
 
-* wait for it ... use the type system
+* duck-typing to the rescue
 
 class Cat
   def speak
@@ -91,7 +108,9 @@ class Car
   end
 end
 
-... better hope that the Engine constructor doesn't have side effects too.
+-----
+
+ + better hope that the Engine constructor doesn't have side effects too.
 
 * constructor injection
 
@@ -106,15 +125,58 @@ end
 
 [[./costanza.jpg]]
 
+class Child < FamilyMember
+end
+
+-----
+
+ + very, very easy to violate single responsibility principle
+
  + harder to reason about (for me, at least)
 
  + harder to test
 
-* consider using other patterns
+* consider using composition instead
 
- + composition
+class Child
+  attr_accessor :family
+end
 
- + mixins
+* "mothership objects"
+
+class Bike
+
+  def calculate_hire_price(date)
+    # business logic
+  end
+
+  def book_day(date)
+    # more business logic
+  end
+end
+
+-----
+
+ + more than one responsibility in a single class
+
+ + makes understanding hard, and safe modification harder
+
+* extract class refactoring
+
+class Bike
+  def initialize(price_catalogue: nil, booking_calendar: nil)
+    @price_catalogue = price_catalogue
+    @booking_calendar = booking_calendar
+  end
+
+  def calculate_hire_price
+    @price_catalogue.calculate_hire_price(date)
+  end
+
+  def book_day(date)
+    @booking_calendar.book_day(date)
+  end
+end
 
 * credits
 

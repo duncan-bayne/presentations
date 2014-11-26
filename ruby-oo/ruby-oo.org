@@ -142,7 +142,7 @@ class Car
   end
 end
 
-* "inheritance"
+ * "inheritance"
 
 [[./costanza.jpg]]
 

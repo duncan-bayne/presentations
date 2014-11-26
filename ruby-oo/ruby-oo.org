@@ -129,7 +129,7 @@ end
 
 -----
 
- + better hope that the Engine constructor doesn't have side effects too.
+ + hope that Engine constructor doesn't have side effects
 
 * constructor injection
 

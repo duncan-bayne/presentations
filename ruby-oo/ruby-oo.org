@@ -10,6 +10,8 @@
 
 * why OO?
 
+[[./dynabook.jpg]]
+
  + make programming accessible to new and non-programmers
    (including children)
 
@@ -211,6 +213,9 @@ end
 
  + http://www.rubyinside.com/advent2006/4-ruby-obfuscation.html
    obfuscated Ruby code
+
+ + http://history-computer.com/ModernComputer/Personal/Dynabook.html
+   photo of Dynabook
 
  + http://www.freebsd.org/
    laptop operating system

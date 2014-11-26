@@ -151,9 +151,7 @@ end
 
  + very, very easy to violate single responsibility principle
 
- + harder to reason about (for me, at least)
-
- + harder to test
+ + harder to test and reason about (for me, at least)
 
 * consider using composition instead
 
@@ -183,9 +181,9 @@ end
 * extract class refactoring
 
 class Bike
-  def initialize(price_catalogue: nil, booking_calendar: nil)
-    @price_catalogue = price_catalogue
+  def initialize(booking_calendar: nil, price_catalogue: nil)
     @booking_calendar = booking_calendar
+    @price_catalogue = price_catalogue
   end
 
   def calculate_hire_price

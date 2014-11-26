@@ -106,6 +106,16 @@ end
 
 [[./costanza.jpg]]
 
+ + harder to reason about (for me, at least)
+
+ + harder to test
+
+* consider using other patterns
+
+ + composition
+
+ + mixins
+
 * credits
 
  + http://harmful.cat-v.org/software/OO_programming/
@@ -119,3 +129,9 @@ end
 
  + http://www.diylol.com/
    George Costanza image macro
+
+ + http://www.freebsd.org/
+   laptop operating system
+
+ + https://github.com/rlister/org-present
+   presentations in Emacs

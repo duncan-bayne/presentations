@@ -10,15 +10,17 @@
 
 * why OO?
 
- + originally intended to make programming accessible to the non-technical (including and especially children)
+ + make programming accessible to new and non-programmers
+   (including children)
 
- + took over a decade to go mainstream with C++ (not suitable for children)
+ + took over a decade to go mainstream with C++
+   (not suitable for children)
 
  + makes certain good practices easy
 
  + particularly well suited to modelling certain real-world domains
 
- * OO principles
+* OO principles
 
  + abstraction
 
@@ -35,9 +37,26 @@
  + Open (for extension) / Closed (for modificiation)
      ... good luck with that last one in Ruby
 
- + LIskov substitution (really? this is why we have a reputation as poor communicators)
+ + LIskov substitution
+   ... why programmers have a reputation as poor communicators
 
  + Dependency inverstion
+
+* on to some examples
+
+        d=[30644250780,9003106878,
+    30636278846,66641217692,4501790980,
+ 671_24_603036,131_61973916,66_606629_920,
+   30642677916,30643069058];a,s=[],$*[0]
+      s.each_byte{|b|a<<("%036b"%d[b.
+         chr.to_i]).scan(/\d{6}/)}
+          a.transpose.each{ |a|
+            a.join.each_byte{\
+             |i|print i==49?\
+               ($*[1]||"#")\
+                 :32.chr}
+                   puts
+                    }
 
 * "everything is a string"
 
@@ -191,6 +210,9 @@ end
 
  + http://www.diylol.com/
    George Costanza image macro
+
+ + http://www.rubyinside.com/advent2006/4-ruby-obfuscation.html
+   obfuscated Ruby code
 
  + http://www.freebsd.org/
    laptop operating system

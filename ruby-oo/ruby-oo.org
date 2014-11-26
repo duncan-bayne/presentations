@@ -10,11 +10,9 @@
 
 * why OO?
 
- + originally intended to make programming accessible to the non-technical
-   (including and especially children)
+ + originally intended to make programming accessible to the non-technical (including and especially children)
 
- + took over a decade to go mainstream with C++
-   (not suitable for children)
+ + took over a decade to go mainstream with C++ (not suitable for children)
 
  + makes certain good practices easy
 
@@ -104,7 +102,9 @@ class Car
   end
 end
 
-* "needless OO"
+* "inheritance"
+
+[[./costanza.jpg]]
 
 * credits
 
@@ -116,3 +116,6 @@ end
 
  + http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html
    history of Smalltalk
+
+ + http://www.diylol.com/
+   George Costanza image macro

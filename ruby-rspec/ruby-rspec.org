@@ -1,0 +1,16 @@
+* why test?
+
+Why do we write tests?  To ...
+
+ * Find the path to an implementation (a.k.a. Test Driven Development).
+
+ * Document the behaviour of the code under test (hence 'specs').
+
+ * Prevent regressions in the code.
+
+ * Explore the behaviour of legacy code.
+
+* credits / links
+
+ * https://github.com/rlister/org-present
+   use Emacs for presentations!

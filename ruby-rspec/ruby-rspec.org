@@ -1,16 +1,49 @@
+* testing Ruby with RSpec
+
+[[./programming.jpg]]
+
 * why test?
 
 Why do we write tests?  To ...
 
- * Find the path to an implementation (a.k.a. Test Driven Development).
+ + Find the path to an implementation (a.k.a. Test Driven Development).
 
- * Document the behaviour of the code under test (hence 'specs').
+ + Document the behaviour of the code under test (hence 'specs').
 
- * Prevent regressions in the code.
+ + Prevent regressions in the code.
 
- * Explore the behaviour of legacy code.
+ + Explore the behaviour of legacy code.
+
+* Test Driven Development
+
+ + Write tests first, then make them pass.
+
+ + Not a replacement for design thinking!
+
+ + Can help you think through a design.
+
+* Document Behaviour
+
+ + Close in spirit to literate programming.
+
+ + The prose is more important than the code.
+
+ + RSpec even has a documentation mode.
+
+   # TODO: examples
+
+* Legacy Code
+
+ + Test ideas about how legacy code works.
+
+ + Build up a suite of tests so you can safely refactor legacy code.
 
 * credits / links
 
- * https://github.com/rlister/org-present
+ + GreenSync
+
+ + https://en.wikipedia.org/
+   Photo of researchers w/ IBM 704
+
+ + https://github.com/rlister/org-present
    use Emacs for presentations!

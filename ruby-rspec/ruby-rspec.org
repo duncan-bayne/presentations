@@ -1,8 +1,8 @@
-* testing Ruby with RSpec
+* Testing Ruby with RSpec
 
 [[./programming.jpg]]
 
-* why test?
+* Why Test?
 
 Why do we write tests?  To ...
 
@@ -16,11 +16,11 @@ Why do we write tests?  To ...
 
 * Test Driven Development
 
- + Write tests first, then make them pass.
+ + Write tests first, make them pass, refactor.
 
  + Not a replacement for design thinking!
 
- + Can help you think through a design.
+ + Keeps your design in a safe state that's easy to extend and refactor.
 
 * Document Behaviour
 
@@ -30,20 +30,56 @@ Why do we write tests?  To ...
 
  + RSpec even has a documentation mode.
 
-   # TODO: examples
-
 * Legacy Code
 
  + Test ideas about how legacy code works.
 
  + Build up a suite of tests so you can safely refactor legacy code.
 
-* credits / links
+ + "My point of view is that legacy code is just code without tests."
+     - Michael Feathers
 
- + GreenSync
+* Why Not Test?
+
+ + When you simply can't test reliably.
+
+ + When you're testing the framework ...
+      ... sometimes
+
+ + When you're spiking ...
+      ... sometimes
+
+* Mocking / Stubbing / Faking
+
+ + Replace a real implementation with a fake one.
+
+ + Assert how the class under test interacts with other classes.
+
+ + Don't overuse mocks to write tests that mirror the implementation.
+
+* Cool Tool Demo Time
+
+ + Guard: Automatically run specs when things change.
+   https://github.com/guard/guard
+
+ + SimpleCov: How much of your code is tested?
+   https://github.com/colszowka/simplecov
+
+ + ruby-prof: Profile your specs to improve performance.
+   https://github.com/ruby-prof/ruby-prof
+
+ + Faker: Generate fake, random data for your specs.
+   https://github.com/stympy/faker
+
+ + factory_girl: Build test objects in pure Ruby.
+   https://github.com/thoughtbot/factory_girl
+
+* Credits and Links
+
+ + http://www.greensync.com.au/
 
  + https://en.wikipedia.org/
-   Photo of researchers w/ IBM 704
+   Photo of researchers w/ IBM 704.
 
  + https://github.com/rlister/org-present
-   use Emacs for presentations!
+   Use Emacs for presentations!

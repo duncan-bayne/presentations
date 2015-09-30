@@ -83,11 +83,11 @@ Why do we write tests?  To ...
    GreenSync - time to work on this presentation, and feedback on same.
    (Which included "don't use Emacs" ...)
 
- + https://en.wikipedia.org/
-   Photo of researchers w/ IBM 704.
-
  + https://github.com/rlister/org-present
    Use Emacs for presentations!
+
+ + https://en.wikipedia.org/
+   Photo of researchers w/ IBM 704.
 
  + https://goo.gl/N7LFk1
    "Artificial ruby hemisphere under a monochromatic light" by D.328 - Own work.

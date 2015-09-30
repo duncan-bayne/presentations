@@ -1,6 +1,6 @@
-* Testing Ruby with RSpec
+ * Testing Ruby with RSpec
 
-[[./programming.jpg]]
+
 
 * Why Test?
 
@@ -43,7 +43,7 @@ Why do we write tests?  To ...
 
  + When you simply can't test reliably.
 
- + When you're testing the framework ...
+ + When you're just testing the framework ...
       ... sometimes
 
  + When you're spiking ...
@@ -74,9 +74,13 @@ Why do we write tests?  To ...
  + factory_girl: Build test objects in pure Ruby.
    https://github.com/thoughtbot/factory_girl
 
+(parenthetical_rant - can we agree on a NamingConvention for ruby-libraries please?)
+
 * Credits and Links
 
  + http://www.greensync.com.au/
+   GreenSync, for some time and feedback on this presentation.
+   (which included "don't use Emacs")
 
  + https://en.wikipedia.org/
    Photo of researchers w/ IBM 704.

@@ -95,3 +95,7 @@ Why do we write tests?  To ...
 
  + https://github.com/duncan-bayne/presentations/tree/master/ruby-rspec
    This presentation.
+
+* Q&A ...
+
+[[./wat.jpg]]

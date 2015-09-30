@@ -1,6 +1,6 @@
- * Testing Ruby with RSpec
+* Testing Ruby with RSpec
 
-
+[[./ruby.jpg]]
 
 * Why Test?
 
@@ -57,33 +57,41 @@ Why do we write tests?  To ...
 
  + Don't overuse mocks to write tests that mirror the implementation.
 
-* Cool Tool Demo Time
+* Cool Tools
 
- + Guard: Automatically run specs when things change.
-   https://github.com/guard/guard
-
- + SimpleCov: How much of your code is tested?
-   https://github.com/colszowka/simplecov
-
- + ruby-prof: Profile your specs to improve performance.
-   https://github.com/ruby-prof/ruby-prof
+ + factory_girl: Build test objects in pure Ruby.
+   https://github.com/thoughtbot/factory_girl
 
  + Faker: Generate fake, random data for your specs.
    https://github.com/stympy/faker
 
- + factory_girl: Build test objects in pure Ruby.
-   https://github.com/thoughtbot/factory_girl
+ + Guard: Automatically run specs when things change.
+   https://github.com/guard/guard
+
+ + ruby-prof: Profile your specs to improve performance.
+   https://github.com/ruby-prof/ruby-prof
+
+ + SimpleCov: How much of your code is tested?
+   https://github.com/colszowka/simplecov
 
 (parenthetical_rant - can we agree on a NamingConvention for ruby-libraries please?)
 
 * Credits and Links
 
- + http://www.greensync.com.au/
-   GreenSync, for some time and feedback on this presentation.
-   (which included "don't use Emacs")
+ + [[./greensync-logo-retina.png]]
+   http://www.greensync.com.au/
+   GreenSync - time to work on this presentation, and feedback on same.
+   (Which included "don't use Emacs" ...)
 
  + https://en.wikipedia.org/
    Photo of researchers w/ IBM 704.
 
  + https://github.com/rlister/org-present
    Use Emacs for presentations!
+
+ + https://goo.gl/N7LFk1
+   "Artificial ruby hemisphere under a monochromatic light" by D.328 - Own work.
+   Licensed under CC BY-SA 3.0 via Commons
+
+ + https://github.com/duncan-bayne/presentations/tree/master/ruby-rspec
+   This presentation.

@@ -1,9 +1,0 @@
-source 'https://rubygems.org/'
-
-gem 'rspec'
-
-# gem 'factory_girl'
-# gem 'faker'
-# gem 'guard-rspec'
-# gem 'ruby-prof'
-# gem 'simple-cov'

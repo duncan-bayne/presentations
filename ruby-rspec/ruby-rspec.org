@@ -49,13 +49,23 @@ Why do we write tests?  To ...
  + When you're spiking ...
       ... sometimes
 
-* Mocking / Stubbing / Faking
+* Mocking / Stubbing / Test Doubles / Faking
 
  + Replace a real implementation with a fake one.
 
- + Assert how the class under test interacts with other classes.
+ + You can focus on how the class under test behaves and interacts.
 
- + Don't overuse mocks to write tests that mirror the implementation.
+ + Avoid using slow, complex, unreliable or dangerous classes.
+
+* Code Walkthrough
+
+* Common Gotchas
+
+ + Overusing mocks to write tests that mirror the implementation.
+
+ + Neglecting to write integration specs.
+
+ + Using fixed values where not strictly necessary.
 
 * Cool Tools
 

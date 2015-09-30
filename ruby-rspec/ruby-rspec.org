@@ -68,9 +68,6 @@ Why do we write tests?  To ...
  + Guard: Automatically run specs when things change.
    https://github.com/guard/guard
 
- + ruby-prof: Profile your specs to improve performance.
-   https://github.com/ruby-prof/ruby-prof
-
  + SimpleCov: How much of your code is tested?
    https://github.com/colszowka/simplecov
 

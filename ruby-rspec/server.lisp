@@ -45,4 +45,4 @@
   (elnode-hostpath-dispatcher httpcon org-present-routes))
 
 (elnode-stop 8009)
-(elnode-start 'org-present-root-handler :port 8009 :host "10.10.10.230")
+(elnode-start 'org-present-root-handler :port org-present-port :host org-present-host)

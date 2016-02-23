@@ -4,6 +4,7 @@ require 'json'
 require 'open-uri'
 
 username = ARGV[0]
+raise 'you must specify a username' if username.nil?
 
 while true
   begin

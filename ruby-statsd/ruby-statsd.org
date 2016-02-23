@@ -1,0 +1,49 @@
+* instrumenting and monitoring a ruby application with statsd and datadog
+
+[[./mission-control.jpg]]
+
+* why not?
+
+You probably shouldn't do this.  Use an off the shelf solution like:
+
++ Nagios
+
++ New Relic
+
+For most Rails apps, off-the-shelf solutions offer far quicker results than rolling your own.
+
+* why?
+
++ Simplicity
+
++ Flexibility
+
++ Avoid lock-in
+
+* what is StatsD?
+
++ Simple Perl-based server for capturing arbitrary statistics, built by Flickr
+
++ Then re-implemented (with the same name!) in Node.js by Etsy
+
++ Now a de-facto standard protocol with many implementations
+
+* what is DataDog?
+
+https://www.datadoghq.com/
+
++ A SaaS monitoring, analysis and alerting system
+
++ Provides a StatsD interface ...
+
++ ... which means it's easy enough to jump ship if problems occur
+
++ Plus many other integrations I won't go into here
+
+* credits
+
+ + https://www.flickr.com/photos/stuseeger/2345425349
+   Stuart Seeger for the NASA Mission Control photograph
+
+ + https://github.com/rlister/org-present
+   presentations in Emacs

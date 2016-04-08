@@ -1,0 +1,10 @@
+* the philosophy of affirmative action
+
+* Emacs + Ruby
+
+* electrocution driven development
+
+* credits / links
+
+ * https://github.com/rlister/org-present
+   use Emacs for presentations!

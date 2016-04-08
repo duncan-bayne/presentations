@@ -14,31 +14,31 @@ For most Rails apps, off-the-shelf solutions offer far quicker results than roll
 
 * why?
 
-+ Simplicity
++ simplicity
 
-+ Flexibility
++ flexibility
 
-+ Avoid lock-in
++ avoid lock-in
 
 * what is StatsD?
 
-+ Simple Perl-based server for capturing arbitrary statistics, built by Flickr
++ simple Perl-based server for capturing arbitrary statistics, built by Flickr
 
-+ Then re-implemented (with the same name!) in Node.js by Etsy
++ then re-implemented (with the same name!) in Node.js by Etsy
 
-+ Now a de-facto standard protocol with many implementations
++ now a de-facto standard protocol with many implementations
 
 * what is DataDog?
 
 https://www.datadoghq.com/
 
-+ A SaaS monitoring, analysis and alerting system
++ a SaaS monitoring, analysis and alerting system
 
-+ Provides a StatsD interface ...
++ provides a StatsD interface ...
 
 + ... which means it's easy enough to jump ship if problems occur
 
-+ Plus many other integrations I won't go into here
++ plus many other integrations I won't go into here
 
 * coding demo
 
@@ -46,6 +46,13 @@ https://www.datadoghq.com/
 
 + https://app.datadoghq.com/signup/agent#ubuntu
 
+* things I'd have done differently
+
++ instrumented more things
+
++ immediately upgraded my account for longer retention
+
++ instrumented even more things
 * credits
 
  + https://www.flickr.com/photos/stuseeger/2345425349

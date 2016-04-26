@@ -1,35 +1,69 @@
 * the philosophy of affirmative action
 
+[[./how_it_works_large.png]]
+* individualism vs. collectivism
+
+attributes of the individual
+
+vs.
+
+attributes of the groups to which they belong
+
+[[./bader.jpg]]
+
+* affirmative action is collectivist
+
+ * affirmative action requires that we consider group membership
+
+ * denies justice to individuals
+
+ * perpetuates the ideas behind bigotry
+
 * Emacs + Ruby
+
+[[./Matz_and_rms_2012-03-s.jpg]]
+* Xah Lee
+
+http://ergoemacs.org/
 
 * ruby-mode
 
- * A major mode for editing Ruby in Emacs.
+ * a major mode for editing Ruby in Emacs
 
- * Included in Emacs since version 23!
+ * included in Emacs since version 23!
 
 * yari.el
 
-An Emacs wrapper for ri.
+an Emacs wrapper for ri
 
 * guard-ctags-bundler
 
-Automatically generates tags for a Ruby project.
+automatically generates tags for a Ruby project
 
 * neotroee
 
-Simple tree browser for projects with non-standard structure.
+simple tree browser for projects with non-standard structure
 
 * electrocution driven development
 
 [[./tweet.png]]
 
 * credits / links
- * https://github.com/ivalkeen/guard-ctags-bundler
-   guard-ctags-bundler
 
  * https://github.com/hron/yari.el
    yari.el
 
+ * https://xkcd.com/385/
+   XKCD 385: How It Works
+
+ * https://github.com/ivalkeen/guard-ctags-bundler
+   guard-ctags-bundler
+
  * https://github.com/rlister/org-present
    use Emacs for presentations!
+
+ * https://en.wikipedia.org/wiki/Douglas_Bader
+   Douglas Bader
+
+ * Xah Lee
+   http://ergoemacs.org/emacs/Matz_Ruby_how_emacs_changed_my_life.html

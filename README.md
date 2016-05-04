@@ -1,4 +1,1 @@
-presentations
-=============
-
-Please see the [presentations wiki](https://github.com/duncan-bayne/presentations/wiki) for all documentation.
+This project is now hosted at [GitLab](https://gitlab.com/duncan-bayne/presentations).
